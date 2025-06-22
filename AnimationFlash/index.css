@@ -1,0 +1,22 @@
+.box{
+     width: 250px;
+     height: 300px;
+     align-items: center;
+     background-color: chartreuse;
+     padding: 20px;
+}
+div p{
+     color: black;
+     font-weight: bold;
+     animation: flash 2s infinite;
+
+}
+@keyframes flash{
+     0%,50%,100%{
+          opacity: 25;
+          
+     }
+     80%{
+          opacity: 0;
+     }
+}
