@@ -1,0 +1,31 @@
+.box{
+     height: 300px;
+     width: 400px;
+     align-items: center;
+     background-color: aqua;
+     padding: 12px;
+}
+div p{
+     font-size: x-large;
+     font-weight: bolder;
+     animation: pulse 1s infinite;
+}
+div button{
+     padding: 4px;
+     text-align: center;
+     background-color: blue;
+     color: chartreuse;
+     font-weight: bolder;
+     animation: pulse 1s infinite;
+}
+@keyframes pulse{
+     0%{
+          transform: scale(1);
+     }
+     50%{
+          transform: scale(1.2);
+     }
+     100%{
+          transform: scale(1);
+     }
+}
