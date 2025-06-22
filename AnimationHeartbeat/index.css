@@ -1,0 +1,24 @@
+.box{
+     align-items: center;
+     text-align: center;
+     background-color: black;
+     color: aliceblue;
+     animation: heartbeat 2s infinite;
+}
+@keyframes heartbeat{
+     0%{
+          transform: scale(1);
+     }
+     25%{
+          transform: scale(1.4);
+     }
+     50%{
+          transform: scale(1);
+     }
+     75%{
+          transform: scale(1.4);
+     }
+     100%{
+          transform: scale(1);
+     }
+}
