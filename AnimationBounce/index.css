@@ -1,0 +1,30 @@
+.box{
+     width: 400px;
+     height: 400px;
+     background-color: blue;
+     /* animation: bounce 4s infinite; */
+}
+div p{
+     color: white;
+     text-align: center;
+     font-size: 24px;
+     font-weight: 800;
+     animation: bounce 4s infinite;
+}
+@keyframes bounce{
+     0%, 20% ,40%,60%,100%{
+          transform: translate(0);
+     }
+     25%{
+          transform: translateX(-50px);
+     }
+     50%{
+          transform: translateY(-50px);
+     }
+     80%{
+          transform: translateX(50px);
+     }
+     100%{
+          transform: translateY(50px);
+     }
+}
